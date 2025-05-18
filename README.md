@@ -3,6 +3,7 @@
 This data journalism project examines trends and patterns in federal data reflecting NIH grant terminations under the Trump admninistration's executive order to eliminate federal funding supporting DEI initiatives.
 
 By: Neela Jain
+
 Date: May 20, 2025
 
 ---
