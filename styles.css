@@ -1,0 +1,137 @@
+/* General styles */
+p{
+    /* Sets a max-width for all paragraphs */
+    max-width:600px;
+
+    /* Uses the margin trick to center */
+    margin:10px auto;
+
+    text-align: justify;
+}
+
+img{
+
+ 	/* Automatically resizes the images to fit the window width */
+ 	max-width: 80%;
+ 	height: auto;
+ 	border: 5px solid black;
+}
+
+
+ /* Link styles */
+a{
+	color: #478bb8;
+}
+
+
+ 
+/* Body styles */
+body{
+
+ 	/* Sets the font family for the body*/
+	font-family: 'Open+Sans', sans-serif;
+}
+
+
+/* Header styles */
+header{
+
+	/* Centers the header text */
+	text-align: center;
+
+	/* Sets the font family for the body*/
+	font-family: 'Open+Sans', sans-serif;
+
+	/*  Adds some breathing room before the header */
+	margin-top: 25px;
+
+}
+
+header h1{
+
+	/* Limits the width of the headline so that it's more readable */
+	max-width: 1000px;
+
+	/*Sets a separate font size and makes bold h1 in the header section */
+	font-size:24px;
+	font-weight:600;
+
+	/* Uses the margin trick to center */
+	margin: 10px auto;
+ 
+	/* Left-aligns the text */
+	text-align: center;
+}
+
+
+header h2, h3{
+
+	/* Limits the width of the headline so that it's more readable */
+	max-width: 850px;
+
+	/*Sets font size for h2s in the header section */
+	font-size: 16px;
+
+	/* Uses the margin trick to center */
+	margin: 10px auto;
+
+	/* Left-aligns the text */
+	text-align: center;
+}
+
+header h3{
+
+	/*Sets font size for h3s in the header section */
+	font-size: 14px;
+}
+
+hr{
+
+	/*Creates mini-border lines between header section and byline and at end of story to create a cleaner look */
+ 	height:2px;
+ 	width:30%;
+ 	background-color:black;
+}
+
+
+/* Styles for the banner image and caption */
+
+figure.banner{
+
+ 	/* This display allows the figcaption to align with the image */
+ 	display:inline-block;
+
+ 	/* Uses the margin trick to center */
+ 	margin: 0px auto;
+}
+
+figcaption.bannerCaption{
+
+ 	/* Sets the font size for the caption text */
+	font-size: 12px;
+
+	/* Centers the caption text */
+	text-align: center;
+
+	/* A margin-left of 20px helps the caption appear centered with the image even though it's technically a little shorter */
+	margin-left: 20px;
+}
+
+
+
+/* Chart styles*/
+p.chartWrapper{
+
+	/* Adds space above and below the chart */
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+	/* Overrides the max width setting for paragraphs */
+	max-width: 700px;
+
+	padding: 20px;
+	border: 5px double black;
+}
+
+
+
