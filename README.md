@@ -17,12 +17,12 @@ The federal government tracks Department of Health and Human Services (DHHS) gra
 ## Data Sources
 
 ### TAGGS Data
-(Located in '/Raw_Data/' folder as both pdf and excel files)
+(Located in 'NIH Terminations Data Analysis 4.30.25/Raw_Data/' folder as both pdf and excel files with keyword 'DOGE')
 
 The TAGGS data was exported on April 30, 2025 and reflects grants terminations between the commencement of terminations of February 28, 2025 and the most recent terminations to date on April 8, 2025. 
 
 ### NIH Report Data
-(Located in '/Raw_Data/' folder as excel file)
+(Located in 'NIH Terminations Data Analysis 4.30.25/Raw_Data/' folder as excel file)
 
 The NIH Report data was exported on May 12, 2025 and looks at all active NIH grants to date. (This analysis acknowledges certain inefficiencies owing to the delayed exportation of data from NIH Report following the last known grant terminations on April 8th.) 
 
@@ -40,7 +40,7 @@ The rate of termination for each grant family was calculated by determining the 
 ### Analysis Findings and Parameters
 The findings focus on grant termination rates for the most commonly awarded grant families.  Thus, the grant termination rate for the ‘C’ grant family which is defined as construction grants providing for the development of a new building, structure or facility, was excluded from the findings’ analysis. The volume of grants in this class of funding ranked at the bottom among all grant families. In addition, the grant termination rate for the ‘O’ grant family (also known as ‘OT’ or ‘Other Transaction’) was excluded as this class of funding represents a unique NIH legal authority other than a grant. Therefore, it does not adhere to the parameters of the analysis. The 'D' and 'S' grant families were also excluded from the finding's analysis as they ranked among the bottom 4 grant families based on number of active awards. Therefore,  six grant families were analyzed in the findings based on volume of active awards prior to termination.
 
-All analysis steps are noted in '/Jain_Data_Story_Terminated_NIH_Grants_Analysis_4.30.25/' notebook
+All analysis steps are noted in 'NIH Terminations Data Analysis 4.30.25/Jain_Data_Story_Terminated_NIH_Grants_Analysis_4.30.25/' notebook
 
 
 
